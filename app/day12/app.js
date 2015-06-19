@@ -53,7 +53,7 @@
 
     // Floor
     var plane = new THREE.PlaneGeometry(2000, 2000, 1, 1);
-    var mat = new THREE.MeshBasicMaterial({
+    var mat = new THREE.MeshPhongMaterial({
       color: 0xefefef,
       overdraw: true
     });

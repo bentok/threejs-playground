@@ -1,3 +1,5 @@
+'use strict';
+
 function KeyboardControls(object, options){
   this.object = object;
   options = options || {};
@@ -10,10 +12,10 @@ function KeyboardControls(object, options){
 
 KeyboardControls.prototype = {
   update: function(){
-    if (this.moveForward)   this.object.translateZ(-this.moveSpeed);
-    if (this.moveBackward)  this.object.translateZ( this.moveSpeed);
-    if (this.moveLeft)      this.object.translateX(-this.moveSpeed);
-    if (this.moveRight)     this.object.translateX( this.moveSpeed);
+    if (this.moveForward)   {this.object.translateZ(-this.moveSpeed);}
+    if (this.moveBackward)  {this.object.translateZ( this.moveSpeed);}
+    if (this.moveLeft)      {this.object.translateX(-this.moveSpeed);}
+    if (this.moveRight)     {this.object.translateX( this.moveSpeed);}
   },
   onKeyDown: function(event) {
     switch (event.keyCode) {
