@@ -2,7 +2,7 @@
 
 (function(){
   var camera, scene, renderer;
-  var projector, raycaster;
+  var projector;
 
   setup();
 

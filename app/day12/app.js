@@ -1,5 +1,5 @@
 'use strict';
-
+/* global KeyboardControls */
 (function(){
 
   var camera, scene, renderer;

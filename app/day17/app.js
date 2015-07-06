@@ -2,7 +2,7 @@
 
 (function(){
 
-  var camera, scene, renderer, spotLight;
+  var camera, scene, renderer;
   var geometry, geometry2, material, material2, mesh, mesh2, geometry3, material3, mesh3;
   var radiusSegments, heightSegments, openEnded;
 

@@ -1,8 +1,8 @@
 'use strict';
-
+/* global KeyboardControls */
 (function(){
   var camera, scene, renderer;
-  var controls, clock, projector, raycaster;
+  var controls, clock, projector;
 
   setup();
 
